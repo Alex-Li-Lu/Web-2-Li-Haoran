@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+
+# Environment / secrets (database password, connection settings)
+.env
+
+# Large binary installers
+*.msi
+
+# OS / editor
+Thumbs.db
+.DS_Store
