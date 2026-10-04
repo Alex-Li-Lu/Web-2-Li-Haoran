@@ -74,7 +74,7 @@ All endpoints are **read-only (GET)**, per the Assignment 2 requirement.
    mysql -u root -p < source/database/schema.sql
    mysql -u root -p < source/database/seed.sql
    ```
-2. **Configure the connection** — copy `.env.example` to `.env` and fill in your MySQL credentials:
+2. **Configure the connection** — create a `.env` file in the project root and fill in your MySQL credentials:
    ```
    DB_HOST=localhost
    DB_PORT=3306
