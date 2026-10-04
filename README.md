@@ -82,7 +82,7 @@ All endpoints are **read-only (GET)**, per the Assignment 2 requirement.
    DB_PASSWORD=your_password
    DB_NAME=charityevents_db
    ```
-3. **Install dependencies:**
+3.**Install dependencies:**
    ```bash
    npm install
    ```
@@ -96,6 +96,3 @@ All endpoints are **read-only (GET)**, per the Assignment 2 requirement.
 
 This project is a student assessment for PROG2002 Web Development II — for academic use only.
 
----
-
-Author: Li Haoran · h.li.81@student.scu.edu.au
