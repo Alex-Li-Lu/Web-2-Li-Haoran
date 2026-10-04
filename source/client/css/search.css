@@ -1,0 +1,120 @@
+.dispatch-band {
+  background: #15557a;
+  color: #fff;
+  padding: 40px 0 34px;
+}
+.dispatch-band .eyebrow {
+  color: #ffd9a3;
+}
+.dispatch-band h1 {
+  margin: 8px 0 22px;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  letter-spacing: -0.01em;
+}
+.dispatch-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: end;
+  padding: 16px;
+  background: #152b3b;
+  border: 1px solid #2c4a5e;
+  border-radius: 3px;
+}
+.dispatch-field {
+  display: grid;
+  gap: 6px;
+  flex: 1 1 220px;
+}
+.dispatch-field label {
+  font: 700 0.75rem "Courier New", monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #d8ecf5;
+}
+.dispatch-field input,
+.dispatch-field select {
+  width: 100%;
+  min-height: 44px;
+  padding: 9px 11px;
+  border: 1px solid #4a6a7d;
+  border-radius: 3px;
+  background: #fff;
+  color: #152b3b;
+  font: inherit;
+}
+.dispatch-filters .button {
+  flex: 0 0 auto;
+  border-radius: 3px;
+  background: #b45309;
+  border-color: #b45309;
+  color: #fff;
+}
+.dispatch-body {
+  padding: 32px 0 64px;
+}
+.results-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  padding-bottom: 14px;
+  margin-bottom: 18px;
+  border-bottom: 2px solid #15557a;
+}
+.results-header h2 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-family: "Courier New", monospace;
+}
+.dispatch-list {
+  display: grid;
+  gap: 8px;
+}
+.dispatch-row {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto auto;
+  gap: 16px;
+  align-items: center;
+  padding: 12px 14px;
+  background: #fff;
+  border: 1px solid #d9e8ef;
+  border-radius: 3px;
+}
+.dispatch-ref {
+  font: 700 0.85rem "Courier New", monospace;
+  color: #15557a;
+  background: #e8f1f6;
+  padding: 4px 8px;
+  border-radius: 3px;
+}
+.dispatch-info h3 {
+  margin: 0 0 4px;
+  font-size: 1.05rem;
+}
+.dispatch-info .meta {
+  margin: 0;
+}
+.dispatch-empty {
+  padding: 40px 20px;
+  text-align: center;
+  background: #fff;
+  border: 1px dashed #15557a;
+  border-radius: 3px;
+  color: #526675;
+}
+@media (max-width: 640px) {
+  .results-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .dispatch-row {
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+  .dispatch-row .status,
+  .dispatch-row .button {
+    grid-column: 2;
+    justify-self: start;
+  }
+}
+.state-illustration { display: block; margin: 0 auto 12px; width: 160px; max-width: 100%; height: auto; }

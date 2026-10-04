@@ -1,0 +1,32 @@
+/* Swift Aid A2-1: emergency response command theme */
+.site-header {
+  background: #15557a;
+  color: #fff;
+  border-bottom: 0;
+}
+.site-header a {
+  color: #fff;
+}
+.eyebrow {
+  color: #15557a;
+}
+.button {
+  border-radius: 3px;
+  background: #15557a;
+  border-color: #15557a;
+}
+.button.secondary {
+  background: #e8f1f6;
+  color: #15557a;
+}
+.status {
+  border-radius: 3px;
+  background: #d8ecf5;
+  color: #15557a;
+}
+.meta {
+  color: #5a7183;
+}
+body {
+  background: #f4f8fb;
+}
